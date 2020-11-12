@@ -1,0 +1,210 @@
+
+/*...................................Tag Part ...............................*/
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight:900;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/*.................................Class Part ...............................*/
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+.btn-cta{
+  margin: 4% 1% 8%;
+}
+
+.container-fluid{
+  padding: 1% 10% 3% 10%;
+}
+
+.container-features{
+  padding: auto 50px;
+}
+
+.carousel-item{
+  padding: 7% 15% 5%;
+}
+
+.cta-text{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: white;
+  width: 60%;
+  margin: auto 20%;
+  padding-top: 5%;
+}
+
+.download-button{
+  margin: 5% 3% 15% 0;
+}
+
+.fa-check-circle{
+  color: blue;
+}
+
+.feature{
+  position: relative;
+}
+
+.features-icon{
+  color: #ef8172;
+  margin: 3rem auto 1.5rem;
+}
+
+.features-icon:hover{
+  color: #ff4c68;
+}
+
+.feature-header{
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.feature-paragraph{
+  color: #8f8f8f;
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  display: block;
+}
+
+.footer-icon{
+  margin: 3% 5px 1%;
+}
+
+.footer-text{
+  color: #8f8f8f;
+  font-family: 'Montserrat';
+  margin-bottom: 5%;
+}
+
+.navbar{
+  padding: 0 0 2rem 0;
+}
+.nav-link{
+  margin: auto 18px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.phone-img{
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 25%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.pricing-card{
+  margin: 40px 2%;
+}
+
+.row{
+  margin-bottom: 3%;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 50%;
+}
+
+/*....................................ID Part ...............................*/
+#title{
+  background-color: #ff4c68;
+  padding: 1% 3%;
+}
+
+#features{
+  background-color: white;
+  text-align: center;
+  padding: 7% 7% 15%;
+  position: relative;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+
+#pricing{
+  padding: 80px 10% 30px;
+  text-align: center;
+
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+#footer{
+    background-color: white;
+    text-align: center;
+}
+
+/*....................................ID Part ...............................*/
+
+@media (max-width: 991px){
+
+  #title{
+    text-align: center;
+  }
+
+  .phone-img{
+    transform: rotate(0deg);
+    position: static;
+    text-align: center;
+  }
+
+  .testimonial-text{
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 600px){
+
+  .testimonial-text{
+    font-size: 2rem;
+  }
+}
